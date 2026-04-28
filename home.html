@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="/vite.svg" rel="icon" type="image/svg+xml" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Jones & Brown Legal - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/swiper@12.1.2/swiper-bundle.min.css" rel="stylesheet">
+  <link href="./src/style/style.scss" rel="stylesheet">
+  <link href="./src/style/home.scss" rel="stylesheet">
+</head>
+
+<body>
+  <div class="app-wrapper">
+
+    <div class="site-top-bar">
+      <div class="main-container">
+        <header class="header-inner">
+          <div class="branding">
+            <a href="/home.html"><img alt="logo" src="/logo.svg"></a>
+          </div>
+          <nav class="nav-menu">
+            <ul>
+              <li><a href="/services-overview.html">Services</a></li>
+              <li><a href="/consultation.html">Schedule a Consult</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+
+      <section class="hero-billboard">
+        <img alt="hero" class="hero-bg-img" src="/hero-home.jpg">
+        <div class="main-container">
+          <div class="hero-body">
+            <h1 class="txt-h1">Jones & Brown Legal</h1>
+            <div class="hero-info-grid">
+              <div class="info-col-left">
+                <p class="txt-h1">Deep expertise, decisive courtroom presence</p>
+              </div>
+              <div class="info-col-right">
+                <p class="txt-md">We've been serving the Los Angeles area with expert legal counsel since 1976.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <main class="content-area">
+      <section class="sec-intro">
+        <div class="main-container">
+          <div class="intro-layout">
+            <h2 class="txt-h1">Welcome to Jones & Brown Legal</h2>
+            <div class="intro-copy">
+              <p class="txt-md">
+                Jones & Brown Legal has been a pillar of the Los Angeles legal community, providing expert legal counsel
+                across a wide spectrum of practice areas. We are more than just attorneys, we are trusted advisors,
+                dedicated advocates, and strategic partners committed to achieving the best possible outcomes for our
+                clients
+              </p>
+              <p class="txt-md">
+                We combine decades of experience with a deep understanding of the complexities of California law. Our
+                team
+                of seasoned trial attorneys boasts a proven track record of success in courtrooms throughout Los Angeles
+                and beyond. We pride ourselves on our comprehensive expertise, covering nearly every field of law,
+                ensuring that whatever your legal challenge, we have the knowledge and experience to guide you.
+              </p>
+            </div>
+            <button class="action-trigger txt-md" onclick="location.href='/consultation.html'">Schedule a
+              Consult</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec-media">
+        <img alt="about" src="/home-about.jpg">
+      </section>
+
+      <section class="sec-services-preview">
+        <div class="main-container">
+          <div class="preview-layout">
+            <h2 class="txt-h1">What We Offer</h2>
+            <div class="preview-content">
+              <ul class="num-list num-md">
+                <li>Business formation</li>
+                <li>Contract drafting</li>
+                <li>Mergers and Acquisitions</li>
+                <li>Property Protection</li>
+                <li>Employment Law</li>
+                <li>Corporate Governance</li>
+                <li>Shareholder Disputes</li>
+                <li><a href="/services-overview.html">+More</a></li>
+              </ul>
+              <a class="ui-button" href="/services-overview.html">Services</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec-feedback">
+        <div class="main-container feedback-box">
+          <h2 class="txt-h1 centered">Hear From Our Clients</h2>
+          <p class="txt-md centered intro-txt">We believe that our clients' experiences speak
+            volumes about the quality of our legal services. Here's what some of them have to say:</p>
+
+          <div class="testimonials-slider">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <p class="quote-text txt-h1">"Jones & Brown Legal handled my estate planning with such care and
+                    professionalism. They listened to my concerns and made the process clear and straightforward. I now
+                    have complete
+                    peace of mind knowing my family's future is secure."</p>
+                  <p class="quote-cite">— David L., Business Owner</p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="quote-text txt-h1">"Their expertise and courtroom presence were truly impressive. They
+                    turned a
+                    stressful situation into a successful outcome."</p>
+                  <p class="quote-cite">— Sarah M., Small Business Owner</p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="quote-text txt-h1">"I was very impressed with the responsiveness and knowledge of everyone
+                    at
+                    Jones & Brown Legal. I felt like they really cared about my case, and they fought hard to get me a
+                    great
+                    result."</p>
+                  <p class="quote-cite">— Thomas P., Individual Client</p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="quote-text txt-h1">"Their attention to detail and proactive communication made the entire
+                    process
+                    smooth and stress-free. I felt completely supported every step of the way."</p>
+                  <p class="quote-cite">— Robert P., Real Estate Investor</p>
+                </div>
+              </div>
+
+              <div class="slider-nav">
+                <button class="nav-btn control-arrow-prev" type="button">
+                  <img alt="prev" src="/arrow-left.svg">
+                </button>
+                <div class="swiper-pagination"></div>
+                <button class="nav-btn control-arrow-next" type="button">
+                  <img alt="next" src="/arrow-right.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <p class="txt-md centered closing-txt">Let us help you navigate your legal journey with
+            confidence and peace of mind. Contact Jones & Brown Legal today.</p>
+          <div class="final-action">
+            <button class="ui-button" onclick="location.href='/consultation.html'">Schedule a Consult</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec-media-sm">
+        <img alt="trust" src="/home-trust.jpg">
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <div class="main-container">
+        <div class="footer-inner">
+          <div class="footer-row-top">
+            <img alt="logo" src="/logo.svg">
+            <h2 class="txt-h1">Jones & Brown Legal</h2>
+          </div>
+          <p class="txt-md">Deep expertise, decisive courtroom presence</p>
+          <div class="footer-links-grid">
+            <ul class="links-col">
+              <li><a href="mailto:hello@figma.com">hello@figma.com</a></li>
+              <li><a href="tel:5551234567">(555) 123-4567</a></li>
+              <li><a href="https://www.instagram.com/figma">Instagram</a></li>
+            </ul>
+            <ul class="links-col">
+              <li>123 Candyland Lane</li>
+              <li>Suite 123</li>
+              <li>Los Angeles, CA 94117</li>
+            </ul>
+            <ul class="links-col">
+              <li><a href="https://www.facebook.com/figmadesign">Facebook</a></li>
+              <li><a href="http://linkedin.com/company/figma">LinkedIn</a></li>
+              <li><a href="https://bsky.app/profile/figma.com">Bluesky</a></li>
+            </ul>
+          </div>
+          <div class="footer-bottom txt-sm">
+            <p>Jones & Brown Legal</p>
+            <p>&copy; 2025 All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="/src/index.ts" type="module"></script>
+</body>
+
+</html>

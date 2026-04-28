@@ -1,0 +1,43 @@
+@use "variables" as vars;
+
+.sec-process {
+  padding: 140px 0;
+  .step-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+    margin-top: 60px;
+  }
+  .step-row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    @media (max-width: vars.$bp-tablet) { flex-direction: column; align-items: flex-start; gap: 20px; }
+    
+    .step-num { flex-shrink: 0; line-height: 1; @media (max-width: vars.$bp-tablet) { font-size: 100px; } }
+    .step-info {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+}
+
+.sec-banner {
+  background-color: var(--primary-accent);
+  color: var(--text-white);
+  .banner-box {
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: vars.$bp-tablet) { flex-direction: column; gap: 40px; align-items: flex-start; }
+  }
+  .banner-action {
+    padding: 18px 24px;
+    border: 1px solid var(--text-white);
+    border-radius: 8px;
+    color: var(--text-white);
+    &:hover { background-color: var(--text-white); color: var(--primary-accent); }
+  }
+}
